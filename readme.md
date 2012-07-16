@@ -2,7 +2,7 @@
 One day SoundCloud will add play controls to their awesome website, but until then here's a couple of bookmarklets to plug the gap
 
 ##The Bookmarklets
-[Soundcloud Play/Pause](javascript:(function(){var script=document.createElement('script');script.type='text/javascript';script.async=true;script.src='http://www.dave-smith.info/soundcloud-playpause-bookmarklet/1/soundcloud-playpause-bookmarklet.src.js';var s=document.getElementsByTagName('head')[0];s.parentNode.insertBefore(script, s.parentNode.firstChild);})()) This one adds Play/Pause, Next, Prev controls just below the logo
+[Soundcloud Play/Pause](javascript:(function(\){var script=document.createElement('script'\);script.type='text/javascript';script.async=true;script.src='http://www.dave-smith.info/soundcloud-playpause-bookmarklet/1/soundcloud-playpause-bookmarklet.src.js';var s=document.getElementsByTagName('head'\)[0];s.parentNode.insertBefore(script, s.parentNode.firstChild\);}\)(\)) This one adds Play/Pause, Next, Prev controls just below the logo
 
 <p><a href="javascript:(function(){var script=document.createElement('script');script.type='text/javascript';script.async=true;script.src='http://www.dave-smith.info/soundcloud-playpause-bookmarklet/1/soundcloud-playpause-one-bookmarklet.src.js';var s=document.getElementsByTagName('head')[0];s.parentNode.insertBefore(script, s.parentNode.firstChild);})();">Soundcloud Play/Pause One</a> This one does the same as above but additionally hides all but the currently playing waveform</p>
 <h2>Tutorial</h2>
