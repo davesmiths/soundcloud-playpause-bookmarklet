@@ -1,18 +1,9 @@
-<?php include_once $_SERVER['DOCUMENT_ROOT'].'/-/mis/index.php'; ?>
-<!DOCTYPE>
-<html>
-<head>
-    <title>Soundcloud Play/Pause Bookmarklet</title>
-    <link rel="Stylesheet" type="text/css" href="../../styles/simple.css" />
-</head>
+#Soundcloud Play/Pause Bookmarklet
+One day SoundCloud will add play controls to their awesome website, but until then here's a couple of bookmarklets to plug the gap
 
-<body>
+##The Bookmarklets
+[Soundcloud Play/Pause](javascript:(function(){var script=document.createElement('script');script.type='text/javascript';script.async=true;script.src='http://www.dave-smith.info/soundcloud-playpause-bookmarklet/1/soundcloud-playpause-bookmarklet.src.js';var s=document.getElementsByTagName('head')[0];s.parentNode.insertBefore(script, s.parentNode.firstChild);})()) This one adds Play/Pause, Next, Prev controls just below the logo
 
-<h1><a href="../">Soundcloud Play/Pause Bookmarklet</a></h1>
-<p>2012 July 14</p>
-<p>One day SoundCloud will add play controls to their awesome website, but until then here's a couple of bookmarklets to plug the gap</p>
-<h2>The Bookmarklets</h2>
-<p><a href="javascript:(function(){var script=document.createElement('script');script.type='text/javascript';script.async=true;script.src='http://www.dave-smith.info/soundcloud-playpause-bookmarklet/1/soundcloud-playpause-bookmarklet.src.js';var s=document.getElementsByTagName('head')[0];s.parentNode.insertBefore(script, s.parentNode.firstChild);})();">Soundcloud Play/Pause</a> This one adds Play/Pause, Next, Prev controls just below the logo</p>
 <p><a href="javascript:(function(){var script=document.createElement('script');script.type='text/javascript';script.async=true;script.src='http://www.dave-smith.info/soundcloud-playpause-bookmarklet/1/soundcloud-playpause-one-bookmarklet.src.js';var s=document.getElementsByTagName('head')[0];s.parentNode.insertBefore(script, s.parentNode.firstChild);})();">Soundcloud Play/Pause One</a> This one does the same as above but additionally hides all but the currently playing waveform</p>
 <h2>Tutorial</h2>
 <ol>
