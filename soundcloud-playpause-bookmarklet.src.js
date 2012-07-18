@@ -85,7 +85,7 @@
 				else {
 					var nextPage = $('a.next_page');
 					if (nextPage.length) {
-						window.location = nextPage.attr('href');
+						window.location = nextPage.attr('href').replace(/#.*/, '') + '#play';
 					}
 				}
 				return false;
@@ -100,7 +100,7 @@
 				else {
 					var nextPage = $('a.prev_page');
 					if (nextPage.length) {
-						window.location = nextPage.attr('href');
+						window.location = nextPage.attr('href').replace(/#.*/, '') + '#play';
 					}
 				}
 				return false;
