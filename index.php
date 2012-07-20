@@ -8,18 +8,18 @@
 
 <body>
 
-<h1><a href="../">Soundcloud Play/Pause Bookmarklet</a></h1>
+<h1>Soundcloud Play/Pause Bookmarklet</h1>
 <p>2012 July 14</p>
-<p>A bookmarklet to add a convenient play/pause to <a href="http://soundcloud.com/">SoundCloud</a>. One day they'll add play controls to their awesome website, but until then this plugs the gap</p>
+<p>A bookmarklet to add convenient play/pause controls to <a href="http://soundcloud.com/">SoundCloud</a>. I'm sure controls like this will be added to their awesome website some day, but until then here's a bookmarklet to do the job</p>
 <h2>The Bookmarklets</h2>
 <p><a href="javascript:(function(){var script=document.createElement('script');script.type='text/javascript';script.async=true;script.src='http://www.dave-smith.info/soundcloud-playpause-bookmarklet/1/soundcloud-playpause-bookmarklet.src.js';var s=document.getElementsByTagName('head')[0];s.parentNode.insertBefore(script, s.parentNode.firstChild);})();">Soundcloud Play/Pause</a> This one adds Play/Pause, Next, Prev controls just below the logo</p>
-<p><a href="javascript:(function(){var script=document.createElement('script');script.type='text/javascript';script.async=true;script.src='http://www.dave-smith.info/soundcloud-playpause-bookmarklet/1/soundcloud-playpause-one-bookmarklet.src.js';var s=document.getElementsByTagName('head')[0];s.parentNode.insertBefore(script, s.parentNode.firstChild);})();">Soundcloud Play/Pause One</a> This one does the same as above but additionally hides all but the currently playing waveform</p>
+<p><a href="javascript:(function(){var script=document.createElement('script');script.type='text/javascript';script.async=true;script.src='http://www.dave-smith.info/soundcloud-playpause-bookmarklet/1/soundcloud-playpause-one-bookmarklet.src.js';var s=document.getElementsByTagName('head')[0];s.parentNode.insertBefore(script, s.parentNode.firstChild);})();">Soundcloud Play/Pause One</a> This one does the same as above but additionally only shows the currently playing waveform</p>
 <h2>Tutorial</h2>
 <ol>
 	<li>Drag one of the above Soundcloud Play/Pause links to your Bookmarks Bar to install</li>
-	<li>Go to SoundCloud and explore some tracks</li>
+	<li>Go to SoundCloud and <a href="http://soundcloud.com/tracks">explore some tracks</a></li>
 	<li>Click the Bookmarklet in the Bookmarks Bar</li>
-	<li>The SoundCloud controls should appear and be ready to use</li>
+	<li>The SoundCloud play/pause controls should appear and be ready to&nbsp;use</li>
 </ol>
 <h2>Limitations</h2>
 <p>Currently the bookmarklets won't work on playlists like those found on the Dashboard or Spotlight pages.</p>
